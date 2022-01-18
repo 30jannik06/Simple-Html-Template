@@ -1,0 +1,25 @@
+@font-face {
+    font-family: popThin;
+    src: url(assets/fonts/Poppins-Light.otf);
+}
+
+@font-face {
+    font-family: popMedium;
+    src: url(assets/fonts/Poppins-Medium.otf);
+}
+
+@font-face {
+    font-family: popSemiBold;
+    src: url(assets/fonts/Poppins-SemiBold.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body {
+    background-color: #5b5b5b;
+}
