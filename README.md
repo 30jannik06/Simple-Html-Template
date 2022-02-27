@@ -1,2 +1,2 @@
 # html-vorlage
-[x] Einfach Html Css vorlage
+Einfache Html Css vorlage
