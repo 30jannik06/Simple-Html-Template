@@ -1,5 +1,10 @@
 @font-face {
-    font-family: popThin;
+    font-family: popExtraLight;
+    src: url(assets/fonts/Poppins-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: popLight;
     src: url(assets/fonts/Poppins-Light.otf);
 }
 
@@ -13,6 +18,16 @@
     src: url(assets/fonts/Poppins-SemiBold.otf);
 }
 
+@font-face {
+    font-family: popExtraBold;
+    src: url(assets/fonts/Poppins-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: popBlack;
+    src: url(assets/fonts/Poppins-Black.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -21,5 +36,17 @@
 }
 
 body {
-    background-color: #5b5b5b;
+    background-color: #1b1b1b;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .example-img{
+    height: 40vh;
+    width: 40vh;
 }
